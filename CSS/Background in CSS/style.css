@@ -1,0 +1,25 @@
+.className{
+    background-color: blue;
+    color: white;
+}
+.className > h2 {
+    background-color: tomato;
+}
+
+
+.className2{
+    background-color: brown;
+    color: white;
+}
+.className2 > h2 {
+    background-color: black;
+    /* color: black; */
+}
+
+.className3{
+    background-color: yellowgreen;
+    color: black;
+}
+.className3 > h2 {
+    background-color: yellow;
+}
