@@ -1,0 +1,79 @@
+body {
+  background-image: url("./abc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+
+
+
+
+
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua; */
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+
+/* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+/* .box1{
+    background-color: yellow;
+    background-image: linear-gradient(yellow, violet);
+} */
+
+/* .box2{
+    background-color: violet;
+    background-image: linear-gradient(to right, red, blue);
+} */
+/* .box3{
+    background-image: linear-gradient(360  deg, red, blue);
+} */
+/* background-image: repeating-linear-gradient(red, yellow 10%, green 20%); */
+/* .box4{
+    background-image: repeating-linear-gradient( red 10%, yellow 20%, green 30%);
+}
+.box5{
+    background-image: linear-gradient();
+} */
+
+
+
+/* background-image: radial-gradient(shape size at position, start-color, ..., last-color); */
+.box1{
+    background-image: radial-gradient(yellow, blue);
+}
+.box2{
+    background-image: radial-gradient(yellow 5%, green 10%, blue 50%);
+}
+.box3{
+    background-image: radial-gradient( circle, red, yellow, blue );
+}
+.box4{
+    background-image: radial-gradient(ellipse, red, blue); /* defult */
+
+    
+    background-image: radial-gradient(circle, red, blue);
+    background-image: radial-gradient(circle at top, red, blue);
+    background-image: radial-gradient(circle at top right, red, blue);
+    background-image: radial-gradient(circle at 0% 0%, red, blue);
+    
+    background-image: radial-gradient(closest-site at 30% 40%, red, blue);
+}
+
+
+
+
+
+
+
+

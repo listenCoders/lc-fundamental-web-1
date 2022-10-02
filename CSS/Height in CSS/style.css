@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: skyblue;
+    margin: 10px 0;
+    /* height: 300px; */
+}
+img{
+    /* width: 600px; */
+}
+
+.box1{
+    /* width: auto; */
+    /* width: max-content; */
+    /* width: min-content; */
+    /* width: 200px; */
+    /* width: 100%; */
+}
