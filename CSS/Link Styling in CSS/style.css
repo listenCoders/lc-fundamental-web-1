@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited{
+    color: goldenrod;
+}
+a{
+    text-decoration: none;
+}
+
+/* 
+a:hover{
+    color: yellow;
+} */
+
+a:active{
+    color: red;
+}
+
+/* a:visited{
+    color: brown;
+} */
+
+
+
+
+
+
+/* .className{} */
+/* #isName{} */
+/* h1{} */

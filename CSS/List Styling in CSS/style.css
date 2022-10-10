@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    margin: 20px;
+    padding: 20px;
+    background-color: #eee;
+    display: flex;
+    gap: 1rem;
+}
+
+
+li{
+    list-style: none;
+    /* list-style: upper-alpha; */
+}
+
+
+/* li 
+bangla
+urdu
+arabic-indic
+circle
+square
+    decimal
+    decimal-leading-zero
+lower-alpha
+lower-roman
+upper-alpha
+upper-alpha
+*/
